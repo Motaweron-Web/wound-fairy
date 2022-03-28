@@ -16,7 +16,7 @@
         </li>
         <li class="slide">
             <a class="side-menu__item" href="{{route('sliders.index')}}">
-                <i class="fe fe-mail side-menu__icon"></i>
+                <i class="fa-solid fa-images"></i>
                 <span class="side-menu__label">البانر المتحرك</span>
             </a>
         </li>
@@ -54,7 +54,7 @@
         <li class="slide">
             <form method="get">
             <a href="#reservationSubmenu" data-toggle="collapse" aria-expanded="false" class=" side-menu__item">
-                <i class="fe fe-mail side-menu__icon"></i>
+                <i class="fa-brands fa-researchgate"></i>
                 <span class="side-menu__label"> الحجوزات</span></a>
             <ul class="collapse list-unstyled" id="reservationSubmenu">
                 <a href="{{route('reservations.new')}}"   class=" side-menu__item">حجوزات الجديدة </a>
@@ -74,7 +74,7 @@
         <li class="slide">
             <form method="get">
                 <a href="#ordersSubmenu" data-toggle="collapse" aria-expanded="false" class=" side-menu__item">
-                    <i class="fa-solid fa-bags-shopping"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                     <span class="side-menu__label"> الطلبات</span></a>
                 <ul class="collapse list-unstyled" id="ordersSubmenu">
                     <a href="{{route('orders.new')}}"   class=" side-menu__item">الطلبات الجديدة </a>
@@ -96,7 +96,7 @@
         </li>
         <li class="slide">
             <a class="side-menu__item" href="{{route('consultations.index')}}">
-                <i class="fa-solid fa-user-doctor-message"></i>
+                <i class="fa-solid fa-book-medical"></i>
                 <span class="side-menu__label">استشارات</span>
             </a>
         </li>
