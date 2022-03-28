@@ -62,15 +62,7 @@
             </ul>
             </form>
         </li>
-
-     <li class="slide">
-         <ul class="collapse list-unstyled" id="sliderSubmenu">
-             <a href="#sliderSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle btn btn-bitbucket side-menu__item">اضافة خدمة</a>
-             <li>
-                 <a href="#" class="btn btn-success">home</a>
-             </li>
-         </ul>
-     </li>
+        
         <li class="slide">
             <form method="get">
                 <a href="#ordersSubmenu" data-toggle="collapse" aria-expanded="false" class=" side-menu__item">

@@ -4,9 +4,9 @@
 @section('content')
     <form action="{{route('services.store')}}" method="post" enctype="multipart/form-data" >
         @csrf
-        <a href="#sliderSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle btn btn-bitbucket">اضافة خدمة</a>
+        <a href="#serviceSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle btn btn-bitbucket">اضافة خدمة</a>
 
-        <ul class="collapse list-unstyled" id="sliderSubmenu">
+        <ul class="collapse list-unstyled" id="serviceSubmenu">
             <br>
             <li>
                 <input type="text" name="name">
