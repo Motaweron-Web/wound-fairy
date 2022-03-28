@@ -49,6 +49,11 @@
         <script>
             toastr.success("{!! session()->get('message') !!}")
         </script>
+        <script>
+            if( Session::has('warning')){
+                toastr.error("{!! session()->get('warning') !!}")
+            }
+        </script>
     @endif
 
 @endsection

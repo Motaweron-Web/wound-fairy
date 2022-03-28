@@ -62,7 +62,7 @@
             </ul>
             </form>
         </li>
-        
+
         <li class="slide">
             <form method="get">
                 <a href="#ordersSubmenu" data-toggle="collapse" aria-expanded="false" class=" side-menu__item">
