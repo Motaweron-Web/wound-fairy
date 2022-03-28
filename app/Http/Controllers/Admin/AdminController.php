@@ -126,10 +126,10 @@ class AdminController extends Controller
     public function destroy($id)
     {
         $admin = Admin::find($id);
-        if( $id != 9 ){
+        if( $id != 1 ){
         $admin->delete();
             return redirect()->route('admins.index')->with('message','تم جذف اليوزر بنجاح');
-        }elseif( $id == 9 ){
+        }elseif( $id == 1 ){
             return redirect()->route('admins.index')->with('warning','لا يمكن حذف هذا اليوزر !');
         }
 
